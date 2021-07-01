@@ -3,7 +3,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  color: white;
   padding: 5px;
   background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.87);
   position: sticky;
+  text-shadow: 0px 0px 10px white;
 }

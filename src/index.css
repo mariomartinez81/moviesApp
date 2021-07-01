@@ -5,12 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://cdn.wallpapersafari.com/90/15/p5Uaye.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-repeat: no-repeat;
+  background-size: cover; */
+
 /* background-image: url('https://daniela4apm.neocities.org/img/marvel.gif');
   background-size: cover;
   background-attachment: fixed; */

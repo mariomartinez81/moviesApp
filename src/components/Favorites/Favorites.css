@@ -39,6 +39,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  bottom: 10px;
+  box-shadow: 7px 7px 5px white;
   width: min-content;
   width: 13.2rem;
   height: 60px;
