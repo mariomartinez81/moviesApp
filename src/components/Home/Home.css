@@ -1,0 +1,47 @@
+.posterMovie {
+  margin: 1rem 0px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  max-width: fit-content;
+  max-height: fit-content;
+}
+.posterMovie:hover {
+  transform: scale(1.2, 1.2);
+  transition: transform 0.5s ease-in-out;
+}
+
+.containersMovies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imgContainer {
+  box-shadow: 7px 7px 5px white;
+}
+.btn-principal-card {
+  position: relative;
+  right: -88px;
+  top: 24px;
+}
+.btn-principal-card:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.3s ease-in-out;
+}
+.name-movie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  width: min-content;
+  width: 13.2rem;
+  height: max-content;
+  height: 65px;
+  font-family: 'PaybAck';
+  font-size: 15px;
+}
+.title {
+  font-family: 'Vehicle Breaks Down';
+}

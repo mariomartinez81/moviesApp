@@ -1,0 +1,48 @@
+.favorites {
+  margin: 1rem 0px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+.favorites:hover {
+  transform: scale(1.2, 1.2) rotate(2deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.containerFav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imgPoster {
+  width: 70%;
+  box-shadow: 7px 7px 6px white;
+}
+.btn-eraser {
+  position: relative;
+  right: -88px;
+  top: 24px;
+}
+
+.btn-eraser:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.name-fav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: min-content;
+  width: 13.2rem;
+  height: 60px;
+  background-color: aliceblue;
+  font-family: 'Nucleus';
+  font-size: 15px;
+}
