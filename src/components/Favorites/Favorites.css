@@ -17,6 +17,15 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+}
+
+.external-fav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .imgPoster {

@@ -1,17 +1,17 @@
 .buttonNav {
-  min-width: 300px;
-  min-height: 60px;
-  font-family: 'Super Mario 256';
+  min-width: 200px;
+  min-height: 40px;
+  font-family: 'PaybAck';
   font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 1.3px;
   font-weight: 700;
   color: #313133;
   background: #4fd1c5;
-  background: linear-gradient(90deg, #81e6d9 0%, #4fd1c5 100%);
+  background: linear-gradient(90deg, #ffffff 0%, #d1834f 100%);
   border: none;
   border-radius: 1000px;
-  box-shadow: 12px 12px 24px #4fd1c5a3;
+  box-shadow: 5px 5px 16px #d18a4fa3;
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
   outline: none;
@@ -23,10 +23,10 @@
 .buttonNav::before {
   content: '';
   border-radius: 1000px;
-  min-width: calc(300px + 12px);
-  min-height: calc(60px + 12px);
-  border: 6px solid #00ffcb;
-  box-shadow: 0 0 60px #00ffcba3;
+  min-width: calc(180px + 12px);
+  min-height: calc(30px + 12px);
+  border: 6px solid #ff8800;
+  box-shadow: 0 0 60px #ff7300a3;
   position: absolute;
   top: 50%;
   left: 50%;

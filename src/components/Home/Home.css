@@ -48,7 +48,11 @@
 .title {
   font-family: 'Vehicle Breaks Down';
   color: white;
-  text-shadow: 0px 0px 30px rgb(255, 153, 0);
+  text-shadow: 0px 0px 30px #ff9900;
+  font-size: 4rem;
+}
+.title:hover {
+  text-shadow: 1px 1px 50px #ff9900;
 }
 
 .search-movie {
@@ -82,7 +86,7 @@
   background: transparent;
   position: absolute;
   right: 45%;
-  top: 20.5%;
+  top: 35%;
 }
 
 .btn-search:hover {

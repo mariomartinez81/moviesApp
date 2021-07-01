@@ -5,7 +5,7 @@ import './Favorites.css';
 
 const Favorites = ({ movieFavorite, removeFavorite }) => {
   return (
-    <>
+    <div className='external-fav'>
       <div className='containerFav'>
         {movieFavorite.map((movie) => (
           <div className='favorites' key={movie.id}>
@@ -23,7 +23,7 @@ const Favorites = ({ movieFavorite, removeFavorite }) => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,13 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Buttton from '../Button/Button';
-import imgMovies from '../../../public/movies.png';
+import movies from '../../assets/movies.png';
 import '../Nav/Nav.css';
 
 const Nav = () => {
   return (
     <div className='nav'>
-      <img src={imgMovies} alt='logo' width='70px' />
+      <img src={movies} alt='logo' width='70px' />
       <NavLink to='/' className='navRef'>
         <Buttton title={'Home 🏠'} />
       </NavLink>

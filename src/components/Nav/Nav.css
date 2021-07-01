@@ -6,7 +6,8 @@
   color: white;
   padding: 5px;
   background-attachment: fixed;
-  background-color: rgba(0, 0, 0, 0.87);
+  background: sticky;
+  background-color: #3f3535;
   position: sticky;
   text-shadow: 0px 0px 10px white;
 }
