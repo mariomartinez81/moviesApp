@@ -78,8 +78,6 @@
 }
 
 .search-movie:hover {
-  /* min-width: calc(200px + 12px);
-  min-height: calc(20px + 12px); */
   padding: 3px;
   border: 6px solid #00ccff;
   box-shadow: 0 0 60px #00d9ffa3;
@@ -88,9 +86,11 @@
 .btn-search {
   border: transparent;
   border-radius: 1000px;
+  width: max-content;
+  height: max-content;
+  align-self: center;
   position: absolute;
   right: 45%;
-  top: 33.5%;
 }
 
 .btn-search:hover {
