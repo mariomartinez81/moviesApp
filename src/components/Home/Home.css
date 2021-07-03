@@ -86,11 +86,16 @@
   border-radius: 1000px;
   position: absolute;
   right: 45%;
-  top: 34%;
+  top: 33.5%;
 }
 
 .btn-search:hover {
   cursor: pointer;
   transform: scale(1.3, 1.3);
   transition: transform 0.3s ease-in-out;
+}
+
+.container-search-btn {
+  display: flex;
+  flex-direction: row;
 }

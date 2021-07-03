@@ -6,7 +6,7 @@ export const REMOVE_FAVORITES = 'REMOVE_FAVORITES';
 export const getMovies = (title) => async (dispatch) => {
   try {
     const request = await fetch(
-      `http://www.omdbapi.com/?apikey=20dac387&s=` + title
+      `https://www.omdbapi.com/?apikey=20dac387&s=` + title
     );
     const data = await request.json();
     dispatch({
@@ -21,7 +21,7 @@ export const getMovies = (title) => async (dispatch) => {
 export const getMovieDetail = (id) => async (dispatch) => {
   try {
     const request = await fetch(
-      `http://www.omdbapi.com/?apikey=20dac387&i=` + id
+      `https://www.omdbapi.com/?apikey=20dac387&i=` + id
     );
     const data = await request.json();
     dispatch({

@@ -19,15 +19,17 @@ const Home = ({ getMovies, moviesLoaded, addFavorites }) => {
     <div className='total-render'>
       <div>
         <h1 className='title'>Movies App</h1>
-        <input
-          type='text'
-          placeholder='Search movie'
-          onChange={handleChange}
-          className='search-movie'
-        />
-        <button onClick={handleClick} className='btn-search'>
-          🏸
-        </button>
+        <div className='container-search-btn'>
+          <input
+            type='text'
+            placeholder='Search movie'
+            onChange={handleChange}
+            className='search-movie'
+          />
+          <button onClick={handleClick} className='btn-search'>
+            🏸
+          </button>
+        </div>
       </div>
       <div className='containersMovies'>
         {moviesLoaded.map((movie) => (
