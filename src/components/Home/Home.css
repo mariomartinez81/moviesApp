@@ -76,7 +76,11 @@
   padding: 10px;
   transform: scale(0.7, 0.7);
 }
+
 .search-movie:hover {
+  /* min-width: calc(200px + 12px);
+  min-height: calc(20px + 12px); */
+  padding: 3px;
   border: 6px solid #00ccff;
   box-shadow: 0 0 60px #00d9ffa3;
 }
@@ -98,4 +102,5 @@
 .container-search-btn {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }

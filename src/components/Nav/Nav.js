@@ -7,7 +7,7 @@ import '../Nav/Nav.css';
 const Nav = () => {
   return (
     <div className='nav'>
-      <img src={movies} alt='logo' width='70px' />
+      <img src={movies} alt='logo' width='70px' className='img-nav' />
       <NavLink to='/' className='navRef'>
         <Buttton title={'Home 🏠'} />
       </NavLink>
